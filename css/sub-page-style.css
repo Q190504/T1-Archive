@@ -29,7 +29,7 @@ nav a
     margin: 3px 18px 0;
     color: #fff;
     letter-spacing: 0.06em;
-    font-size: large;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s;
@@ -50,13 +50,14 @@ iframe
 {
     width: 95%;
     height: 1000px;
+    margin-bottom: 4%
 }
 
 .footer
 {
     font-family: 'Sarabun', sans-serif;
-    padding: 1.5%;
-    font-size: 20px;
+    padding: 1%;
+    font-size: 13px;
     text-align: center;
     color: #fff;
     background-color: #e0012c;
