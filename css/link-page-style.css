@@ -9,40 +9,35 @@ body
 
 .header
 {
-    padding: 10px;
+    display: flex;
+    justify-content: center;
     font-family: 'Sarabun', sans-serif;
-    min-height: 50px;
-    border-bottom: 0px solid #ececec;
+    min-height: 80px;
     background-color: #e0012c;
 }
 
 nav 
 {
     justify-content: center;
+    align-items: center;
     display: flex;
-    align-items: center; 
 }
 
 nav a 
 {
-    padding: 8px 0px 0px;
-    margin: 3px 18px 0;
     color: #fff;
+    text-align: center;
+    padding: 8px;
+    margin: 3px 18px 0;
     letter-spacing: 0.06em;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
 }
 
-.logo-section
+h1
 {
-    margin-bottom: 2%;
-}
-
-.logo-image
-{
-    margin-top: 2%;
-    width: 35%;
+    color: #e0012c;
 }
 
 table, td 
@@ -53,6 +48,7 @@ table, td
     border-collapse: collapse;
     padding: 2%;
     width: 16.67%;
+    font-weight: bold;
 }
 
 
